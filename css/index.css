@@ -1,0 +1,273 @@
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable comment-empty-line-before */
+/* stylelint-disable no-missing-end-of-source-newline */
+/* stylelint-disable selector-pseudo-element-colon-notation */
+/* stylelint-disable selector-list-comma-newline-after */
+/* stylelint-disable rule-empty-line-before */
+/* stylelint-disable indentation */
+/* Globals */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; /* Now 10px = 1rem! */
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: "Kalam", cursive;
+}
+
+img {
+  width: 100%;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2.8rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+}
+
+h3 {
+  font-size: 2.4rem;
+}
+
+p {
+  font-size: 2rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* UTILITIES */
+.d-flex {
+  display: flex;
+}
+
+.container {
+  width: 95%;
+  margin: 0 auto;
+}
+
+.center-text {
+  text-align: center;
+}
+
+main h2,
+section h2 {
+  font-size: 4rem;
+  font-weight: 700;
+}
+
+.background {
+  position: absolute;
+  background-image: url(../img/background1.webp);
+  background-size: cover;
+  background-position: center center;
+  width: 100%;
+  min-height: 100%;
+}
+
+header {
+  padding-top: 3rem;
+}
+
+.header {
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border: 0.3rem solid #fff;
+}
+
+.header h1 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.header ul {
+  gap: 2rem;
+}
+
+.header ul li {
+  color: #fff;
+  font-size: 3rem;
+  font-weight: 600;
+  border-right: 0.3rem solid #fff;
+  padding: 0 1rem;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.header ul li:last-of-type {
+  border: none;
+}
+
+.header ul li:hover {
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  padding: 0.5rem;
+}
+
+.date {
+  font-weight: 700;
+  text-align: end;
+  margin-top: 1rem;
+  font-size: 3rem;
+}
+
+.books {
+  margin-top: 3rem;
+}
+
+.new-book {
+  gap: 2rem;
+  align-items: center;
+  font-weight: 700;
+}
+
+.adding-books {
+  display: none;
+}
+
+.adding-books-heading {
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+
+form {
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+
+.book-name,
+.author-name {
+  width: 60%;
+  padding: 1rem;
+  font-size: 2rem;
+}
+
+.book-name::placeholder {
+  font-size: 3rem;
+  color: #000;
+}
+
+.author-name::placeholder {
+  font-size: 3rem;
+  color: #000;
+}
+
+.add-book {
+  position: absolute;
+  top: 48vh;
+  right: 21.5vw;
+  font-size: 3.5rem;
+  background-color: #bbb;
+  color: #fff;
+  border: none;
+  padding: 0.5rem 1.4rem 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.books-container {
+  border: 0.3rem solid #fff;
+}
+
+.book-styles {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+.book-styles:nth-child(odd) {
+  background-color: #bbb;
+}
+
+.book-styles:nth-child(even) {
+  background-color: #000;
+}
+
+.book-description {
+  font-size: 3rem;
+  text-transform: capitalize;
+}
+
+.book-description span {
+  border-left: 0.3rem solid #fff;
+  border-right: 0.3rem solid #fff;
+  padding: 0 0.5rem;
+  margin: 0 0.5rem;
+}
+
+.remove {
+  font-weight: 700;
+  font-size: 2.5rem;
+  background-color: transparent;
+  border: 0.3rem solid #fff;
+  color: #fff;
+  padding: 0.5rem;
+  transition: all 0.5s ease;
+}
+.remove:hover {
+  background-color: #fff;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Contact section */
+
+.contact {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.contact-heading {
+  margin-top: 6rem;
+}
+
+.contact-paragraph {
+  font-size: 3rem;
+}
+
+.contact-link {
+  color: #fff;
+  font-size: 2.5rem;
+}
+
+footer {
+  width: 95%;
+  padding: 2rem;
+  border: 0.3rem solid #fff;
+  margin: 10rem auto 4rem auto;
+}
+
+footer p {
+  font-size: 3rem;
+  font-weight: 700;
+}
