@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 class Book {
   constructor() {
     this.title = '';

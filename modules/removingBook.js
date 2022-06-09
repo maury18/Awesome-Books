@@ -1,4 +1,3 @@
-/* eslint-disable linebreak-style */
 const removingFunction = (newBook, allTheBooks) => {
   const removeButton = document.querySelectorAll('.remove');
   removeButton.forEach((item, index) => {

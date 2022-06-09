@@ -1,5 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-unused-vars */
 import changingSection from './modules/changinSection.js';
 import Book from './modules/class.js';
 import bookfunction from './modules/addingBook.js';
