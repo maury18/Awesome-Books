@@ -1,4 +1,4 @@
-import changingSection from './modules/changinSection.js';
+import changinSection from './modules/changinSection.js';
 import Book from './modules/class.js';
 import bookfunction from './modules/addingBook.js';
 import removingFunction from './modules/removingBook.js';
