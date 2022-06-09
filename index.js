@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import changinSection from './modules/changinSection.js';
 import Book from './modules/class.js';
 import bookfunction from './modules/addingBook.js';
