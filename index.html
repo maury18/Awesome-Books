@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <div class="background">
+        <header>
+            <div class="header d-flex container">
+                <h1>Awesome Books</h1>
+                <nav>
+                    <ul class="links d-flex">
+                        <li id="list">List</li>
+                        <li id="add">Add new</li>
+                        <li id="contact">Contact</li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="container">
+                <p id="date" class="date"></p>
+            </div>
+        </header>
+        <main class="books">
+            <h2 class="center-text">All awesome books</h2>
+            <div class="books-container container" id="container">
+
+            </div>
+        </main>
+
+        <section class="adding-books">
+            <h2 class="adding-books-heading center-text">Add a new book</h2>
+            <form class="container d-flex">
+                <input type="text" id="book-name" placeholder="Title" class="book-name">
+                <input type="text" id="author-name" placeholder="Author" class="author-name">
+            </form>
+            <button type="button" id="add-book" class="add-book">Add</button>
+        </section>
+
+        <section class="contact container">
+            <h2 class="contact-heading center-text">Contact information</h2>
+            <p class="contact-paragraph">Do you have any questions or just want to say "Hello"? <br> You can reach out
+                to us!</p>
+            <ul>
+                <li class="contact-link">Our e-mail: mail@mail.com</li>
+                <li class="contact-link">our phone number: 0043586534422</li>
+                <li class="contact-link">Our addres: Streetname 22, 84503 City, Country</li>
+            </ul>
+        </section>
+        <footer>
+            <p>Copyright _</p>
+        </footer>
+    </div>
+
+    <script src="./index.js" type="module"></script>
+</body>
+
+</html>
